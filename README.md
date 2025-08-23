@@ -33,3 +33,6 @@ persian-rs = "0.1.0"
 ## مجوز
 
 این پروژه تحت مجوز **MIT** منتشر شده است.
+
+
+![Repo Badge](https://visitor-badge.laobi.icu/badge?page_id=null-err0r.persian-rs)
