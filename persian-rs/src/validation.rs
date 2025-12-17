@@ -1,5 +1,5 @@
-//!This module provade two function for validating Iranian nasional id([crate::validation::is_valid_national_id])
-//! and card number([crate::validation::is_valid_card_number])
+//!This module provade two function for validating Iranian nasional id([is_valid_national_id](crate::validation::is_valid_national_id))
+//! and card number([is_valid_card_number](crate::validation::is_valid_card_number))
 
 ///Checks if entered Iranian nasional id is valid
 ///
@@ -32,7 +32,7 @@ pub fn is_valid_national_id(code: &str) -> bool {
 }
 ///Checks if the inputed Iranian card number is valid using Luhn algorithm
 ///
-/// returns false if the entered string is not 8 to 19 digit long wihout spaces or chars
+/// Returns false if the entered string is not 8 to 19 digit long wihout spaces or chars
 pub fn is_valid_card_number(number: &str) -> bool {
     if number.len() < 8 || number.len() > 19 || !number.chars().all(char::is_numeric) {
         return false;
