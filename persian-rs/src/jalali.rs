@@ -1,6 +1,7 @@
 // src/jalali.rs
-//! This module contain function to convert dates **form gregorian to jalali([to_jalali](crate::jalali::to_jalali))**
-//! and form **jalali to gregorian([jalali_to_gregorian](crate::jalali::jalali_to_gregorian))**
+//!
+//!  This module contain function to convert dates **form gregorian to jalali([`to_jalali`](crate::jalali::to_jalali))**
+//! and form **jalali to gregorian([`jalali_to_gregorian`](crate::jalali::jalali_to_gregorian))**
 
 static DAY_SUM: [u16; 12] = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
 static DAY_SUM_KABISE: [u16; 12] = [0, 31, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335];
@@ -108,7 +109,7 @@ pub struct GregorianDate {
 /// ## Example:
 /// ```rust
 ///let date:GregorianDate=jalali_to_gregorian(1404,9,26)
-/// asserteq!(date,GregorianDate{year:2025,month:12,day:17}) 
+/// asserteq!(date,GregorianDate{year:2025,month:12,day:17})
 /// ```
 pub fn jalali_to_gregorian(year: i32, month: i32, day: i32) -> GregorianDate {
     let gy = year + 621;

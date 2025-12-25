@@ -1,5 +1,5 @@
-//!This module provade two function for validating Iranian nasional id([is_valid_national_id](crate::validation::is_valid_national_id))
-//! and card number([is_valid_card_number](crate::validation::is_valid_card_number))
+//!This module provade two function for validating Iranian nasional id([`is_valid_national_id`](crate::validation::is_valid_national_id))
+//! and card number([`is_valid_card_number`](crate::validation::is_valid_card_number))
 
 ///Checks if entered Iranian nasional id is valid
 ///
