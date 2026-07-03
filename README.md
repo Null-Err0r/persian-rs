@@ -27,8 +27,8 @@
 ```toml
 [dependencies]
 persian-rs = "اخرین ورژن رو از مسیر زیر ببینید" 
-[![Crates.io](https://img.shields.io/crates/v/persian-rs.svg)](https://crates.io/crates/persian-rs)
 ```
+[![Crates.io](https://img.shields.io/crates/v/persian-rs.svg)](https://crates.io/crates/persian-rs)
 
 
 ## مجوز
