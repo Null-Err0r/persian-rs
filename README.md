@@ -26,7 +26,8 @@
 خط زیر را به فایل `Cargo.toml` خود اضافه کنید:
 ```toml
 [dependencies]
-persian-rs = "0.1.0" 
+persian-rs = "اخرین ورژن رو از مسیر زیر ببینید" 
+[![Crates.io](https://img.shields.io/crates/v/persian-rs.svg)](https://crates.io/crates/persian-rs)
 ```
 
 
